@@ -4,6 +4,9 @@ rust:
 sudo: false
 cache: cargo
 
+env:
+  RUSTUP_UPDATE_ROOT: "https://dev-static.rust-lang.org/rustup"
+
 matrix:
   include:
     # This is the minimum Rust version supported by pin-utils.
